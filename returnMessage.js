@@ -1,3 +1,4 @@
 const returnMessage = (message) => {
-  return message;
+  const messageStart = "Hello there";
+  return `${messageStart} ${message}`;
 };
